@@ -21,11 +21,14 @@ Python, Pyenv e Poetry
 │   └── 📄 settings.json
 ├── 📁 app
 │   ├── 📁 libs
-│       └── 📄 common-functions.sh     # Funções comuns ao projeto
 ├── 📁 docs
 ├── 📁 logs                            # Logs de todas as aulas
 ├── 📁 tests
-├── ⚙️ .gitignore
+├── ⚙️ .gitignore                      # Configuração dos arquivos que o Github ignorará
+├── ⚙️ .python-version                 # Versão do Python para o ambiente virtual
+├── ⚙️ git-inicial.sh                  # Script inicial do repositório de todos os arquivos de configuração
+├── ⚙️ poetry.lock                     # Arquivo de controle do Poetry para as bibliotecas
+├── ⚙️ pypoetry.toml                   # Configurações do ambiente virtual gerenciado pelo Poetry
 └── 📝 README.md
 ```
 
