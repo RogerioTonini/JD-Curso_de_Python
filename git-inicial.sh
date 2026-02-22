@@ -20,10 +20,14 @@ git commit -m "chore(vscode): adicionar configurações do editor"
 git add .githooks-scripts/
 git commit -m "chore(git): adicionar scripts de hooks para Conventional Commits"
 
-# Commit 6: App
+# Commit 6: README.md
+git add README.md
+git commit -m "docs: adicionar README.md com informações do projeto"
+
+# Commit 7: App
 git add app/
 git commit -m "feat(app): criar estrutura base da aplicação"
 
-# Commit 7: Testes
+# Commit 8: Testes
 git add tests/
 git commit -m "test: adicionar estrutura de testes"
