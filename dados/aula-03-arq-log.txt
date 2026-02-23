@@ -1,0 +1,11 @@
+data-hora,level,message
+2024-01-15T10:30:00,OK,Conexão OK
+2024-01-15T10:35:12,ERROR,Falha na conexão
+2024-01-15T10:40:00,OK,Conexão OK
+2024-01-15T11:00:00,ERROR,Falha na conexão
+2024-01-15T11:15:00,OK,Conexão OK
+2024-01-15T14:20:00,OK,Conexão OK
+2024-01-15T15:05:00,ERROR,Falha na conexão
+2024-01-16T09:00:00,OK,Conexão OK
+2024-01-16T10:30:00,ERROR,Falha na conexão
+2024-01-16T11:45:00,OK,Conexão OK

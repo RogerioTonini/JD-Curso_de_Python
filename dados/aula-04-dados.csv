@@ -1,0 +1,4 @@
+nome,quantidade,preco, disponibilidade
+Rogerio,50, 23.49,True
+Luciano,39,70.38,True
+Fabio,22,10.67,False
