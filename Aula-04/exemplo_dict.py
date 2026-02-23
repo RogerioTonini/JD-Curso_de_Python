@@ -9,19 +9,19 @@ produto_dict_01: dict = {
     'nome': 'sapato',
     'quantidade': 39,
     'preco': 10.38,
-    'disponivel': True
+    'disponivel': True,
 }
 
 produto_dict_02: dict = {
     'nome': 'televisao',
     'quantidade': 10,
     'preco': 70.38,
-    'disponivel': False
+    'disponivel': False,
 }
 
 print(f'Produto List: {produto_list}')
 print('')
-print(f' Produto Dict 01: {produto_dict_01}')
+print(f'Produto Dict 01: {produto_dict_01}')
 print('')
 print(f'Produto Dict 02: {produto_dict_02}')
 

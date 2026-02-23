@@ -1,4 +1,4 @@
-# Não ocorre erro, pois o Type Hinting é apenas uma anotação para indicar o tipo esperado de uma variável, mas não impede que outros tipos sejam atribuídos a ela. 
+# Não ocorre erro, pois o Type Hinting é apenas uma anotação para indicar o tipo esperado de uma variável, mas não impede que outros tipos sejam atribuídos a ela.
 # No entanto, isso pode levar a comportamentos inesperados ou erros em tempo de execução se o código tentar usar a variável de uma maneira que não seja compatível com o tipo real atribuído a ela.
 # Para que seja possível realizar operações matemáticas com a variável 'idade', é necessário convertê-la para um tipo numérico, como int ou float e também criar uma validação para garantir que a entrada do usuário seja um número válido.
 # Ou ainda a utilização da biblioteca 'mypy' para realizar a verificação de tipos em tempo de desenvolvimento, o que pode ajudar a identificar inconsistências entre os tipos anotados e os tipos reais usados no código.
