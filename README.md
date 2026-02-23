@@ -20,7 +20,12 @@ Python, Pyenv e Poetry
 │   ├── 📄 launch.json
 │   └── 📄 settings.json
 ├── 📁 app
-│   ├── 📁 libs
+│   └── 📁 libs
+├── 📁 aula-02                         # Todas as pastas iniciadas com aula- contém a resolução dos exercícios 
+├── 📁 aula-04
+├── 📁 aula-05
+├── 📁 exercicios                      # Relação de exercicios propostos
+├── 📁 dados                           # Arquivos de dados dos diversos exercicios propostos
 ├── 📁 docs
 ├── 📁 logs                            # Logs de todas as aulas
 ├── 📁 tests
@@ -43,12 +48,14 @@ Python, Pyenv e Poetry
 
 ### Bibliotecas
 ---
-* Pandas
-* Mypy
+* pandas = 3.0.1
+* mypy   = 1.19.1
+* isort  = 8.0.0
+* blue   = 0.9.1
+
 
 ### Instalação
 ___
-
 Clonar o repositório.
 
 ```bash
