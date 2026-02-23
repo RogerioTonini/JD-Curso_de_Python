@@ -21,7 +21,7 @@ build-backend = "poetry.core.masonry.api"
 # Configuração do BLUE
 [tool.blue]
 line-length     = 79            # Comprimento máximo de linha (PEP 8)
-target-version  = ["py311"]     # Versão alvo do Python
+target-version  = ["py310"]     # Versão alvo do Python
 include         = '\.pyi?$'     # Arquivos a processar
 extend-exclude  = '''           # Diretórios a ignorar
 /(
@@ -41,7 +41,7 @@ include_trailing_comma = true               # Vírgula no último item
 force_grid_wrap = 0                         # Sem forçar quebra por quantidade
 line_length = 79                            # Consistente com blue/PEP 8
 known_first_party = ["pipeline", "app"]     # Módulos do projeto
-know_third_party = []
+known_third_party = []
 
 # Configuração do MYPY
 [tool.mypy]
