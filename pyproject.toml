@@ -8,10 +8,48 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 
-
 [tool.poetry.group.dev.dependencies]
 pandas = "^3.0.1"
+mypy   = "^1.19.1"
+isort = "^8.0.0"
+blue = "^0.9.1"
 
 [build-system]
-requires = ["poetry-core"]
+requires      = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+# Configuração do BLUE
+[tool.blue]
+line-length     = 79            # Comprimento máximo de linha (PEP 8)
+target-version  = ["py311"]     # Versão alvo do Python
+include         = '\.pyi?$'     # Arquivos a processar
+extend-exclude  = '''           # Diretórios a ignorar
+/(
+  | .venv
+  | .git
+  | __pycache__
+  | build
+  | dist
+)/
+'''
+
+# Configuração do ISORT
+[tool.isort]
+profile = "black"                           # Compatibilidade com blue/black
+multi_line_output = 3                       # Estilo Vertical Hanging Indent
+include_trailing_comma = true               # Vírgula no último item
+force_grid_wrap = 0                         # Sem forçar quebra por quantidade
+line_length = 79                            # Consistente com blue/PEP 8
+known_first_party = ["pipeline", "app"]     # Módulos do projeto
+know_third_party = []
+
+# Configuração do MYPY
+[tool.mypy]
+python_version = "3.11"                     # Versão do Python
+warn_return_any = true                      # Avisar quando retornar 'Any'
+warn_unused_configs = true                  # Avisar sobre configs não utilizadas
+disallow_untyped_defs = true                # Exigir type hints em todas as funções
+follow_imports = "normal"                   # Seguir imports para verificar dependências
+ignore_missing_imports = true               # Ignorar imports de bibliotecas sem stubs
+warn_unreachable = true                     # Verificar código não acessível
+# strict = true                              # Modo strict (opcional - mais rigoroso)
