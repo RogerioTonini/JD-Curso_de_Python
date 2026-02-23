@@ -37,9 +37,14 @@ Python, Pyenv e Poetry
 
 - **Git** instalado. [Download Git](https://git-scm.com/book/pt-br/v2)
 - **Visual Studo Code** instalado. [Download VSCode](https://code.visualstudio.com/download)
-- **Python** - versão 3.12.10.
+- **Python** - versão 3.12.10 (ambiente virtual).
 - **Pyenv**  - versão 3.1.1.
 - **Poetry** - versão 1.8.5.
+
+### Bibliotecas
+---
+* Pandas
+* Mypy
 
 ### Instalação
 ___
