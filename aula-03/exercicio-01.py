@@ -11,7 +11,7 @@ from pathlib import Path
 # para poder impotar o módulo common_functions.py
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-import curso_python.libs.common_functions as cf
+import app.libs.common_functions as cf
 
 cf.clear_screen()  # Limpa a tela antes de iniciar o programa
 print()
