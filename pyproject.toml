@@ -4,6 +4,9 @@ version = "0.1.0"
 description = "Curso de Python: Jornada de Dados"
 authors = ["Rogerio <rogerio.tonini@gmail.com>"]
 readme = "README.md"
+packages = [
+    { include = "app" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.11"
