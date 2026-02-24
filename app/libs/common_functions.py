@@ -1,8 +1,15 @@
+# -----------------------------------------------------------------------------
 # Arquivo: common-functions.py
 # Objetivo: Arquivo para armazenar funções comuns que podem ser usadas em 
 # diferentes partes do projeto.
 # Autor: Rogerio Tonini - rogerio.tonini@gmail.com
 # -----------------------------------------------------------------------------
+# Relação de funções:
+#  1. clear_screen(): Limpa a tela do terminal.
+# -----------------------------------------------------------------------------
+
+import os
+
 def clear_screen():
     """
     Objetivo: Limpar a tela do terminal.
@@ -11,5 +18,4 @@ def clear_screen():
     Args: Nenhum argumento é necessário.
     Return: Nenhum valor é retornado.
     """
-    import os
     os.system('cls' if os.name == 'nt' else 'clear')
